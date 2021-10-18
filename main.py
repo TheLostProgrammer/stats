@@ -27,4 +27,4 @@ def calculate(titles, numbers):
     plt.show()
     return
 
-print(calculate(input("Enter chart title [-v for stripplot], boxplot title and x-y axis titles (seperate by commas): "), sorted([float(i.strip()) for i in input("Enter some numbers: ").replace(",", ", ").split(" ")])))
+print(calculate(input("Enter chart title [-v for stripplot], boxplot title and x-y axis titles (seperate by commas): "), sorted([float(i.strip()) for i in input("Enter some numbers: ").replace(",", ", ").split()])))
