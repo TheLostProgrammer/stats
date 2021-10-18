@@ -1,4 +1,4 @@
-!#/usr/bin/python3
+#!/usr/bin/python3
 def calculate(numbers):
     if len(numbers) % 2 == 0:
         q2 = (numbers[len(numbers) // 2] + numbers[len(numbers) // 2 - 1]) / 2
